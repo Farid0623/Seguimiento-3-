@@ -1,0 +1,12 @@
+class Banco {
+    private java.util.concurrent.BlockingQueue<Banco.Cliente> filaPreferencial;
+    private java.util.concurrent.BlockingQueue<Banco.Cliente> filaComunitaria;
+
+    public Banco() { /* compiled code */ }
+
+    public void agregarCliente(Banco.Cliente cliente) { /* compiled code */ }
+
+    public Banco.Cliente atenderClientePreferencial() throws java.lang.InterruptedException { /* compiled code */ }
+
+    public Banco.Cliente atenderClienteComunitario() throws java.lang.InterruptedException { /* compiled code */ }
+}
