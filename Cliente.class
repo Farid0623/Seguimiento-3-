@@ -1,0 +1,13 @@
+class Cliente implements java.lang.Runnable {
+    private static int contador;
+    private int id;
+    private boolean esPreferencial;
+
+    public Cliente(boolean esPreferencial) { /* compiled code */ }
+
+    public int getId() { /* compiled code */ }
+
+    public boolean esPreferencial() { /* compiled code */ }
+
+    public void run() { /* compiled code */ }
+}
